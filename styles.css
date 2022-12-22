@@ -10,7 +10,7 @@
 
 :root {
     --main-color: #647bff;
-    --body-color: #090a1a;
+    --body-color: #add8e6;
     --container-color: #171b3c;
     --heading-color: #222231;
     --box-color: #0d0f26;
@@ -60,7 +60,7 @@ header {
 }
 
 .header-active {
-    background: var(--box-color);
+    background: var(--body-color);
     transition: 0.4s;
 }
 
@@ -450,7 +450,7 @@ header {
 
 .achievements-box {
     padding: 20px 10px;
-    background: var(--box-color);
+    background: var(--container-color);
     border-radius: 1rem;
     text-align: center;
 }
@@ -494,7 +494,7 @@ header {
     font-size: 0.9rem;
     padding: 15px;
     color: var(--bg-color);
-    background: var(--box-color);
+    background: var(--container-color);
     border-radius: 1rem;
 }
 
