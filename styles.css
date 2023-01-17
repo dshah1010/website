@@ -10,7 +10,7 @@
 
 :root {
     --main-color: #647bff;
-    --body-color: #add8e6;
+    --body-color: #090a1a;
     --container-color: #171b3c;
     --heading-color: #222231;
     --box-color: #0d0f26;
@@ -384,7 +384,7 @@ header {
 
 .projects-content {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     margin: 100px;
 }
