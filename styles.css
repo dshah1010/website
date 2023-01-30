@@ -14,7 +14,7 @@
     --container-color: #171b3c;
     --heading-color: #222231;
     --box-color: #0d0f26;
-    --bg-color: #fff;
+    --bg-color: whitesmoke;
 }
 
 body {
@@ -293,14 +293,13 @@ header {
     text-align: center;
     padding: 15px;
     background: var(--container-color);
-    border-radius: 1rem;
-    border-style: double;
+    border-radius: 2rem;
     transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .technology-stack-box:hover {
     color: black;
-    background: lightgreen;
+    background: rgb(97, 226, 97);
     box-shadow: 0 0 10px lightblue, 0 0 10px #2196f3, 0 0 10px #2196f3;
     transform: scale(1.05);
     transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -311,7 +310,7 @@ header {
     color: var(--main-color);
     padding: 10px;
     border-radius: 1rem;
-    border: 2.5px dashed var(--bg-color);
+    border: 2.5px solid var(--bg-color);
 }
 
 .technology-stack-box h2 {
@@ -365,7 +364,7 @@ header {
     margin-top: 3px;
     padding: 10px;
     border-radius: 1rem;
-    border: 2.5px dashed var(--bg-color);
+    border: 2.5px solid var(--bg-color);
     text-align: center;
 }
 
@@ -451,7 +450,7 @@ header {
 .achievements-box {
     padding: 20px 10px;
     background: var(--container-color);
-    border-radius: 1rem;
+    border-radius: 2rem;
     text-align: center;
 }
 
@@ -474,7 +473,7 @@ header {
 
 .achievements-box:hover {
     color: black;
-    background: lightgreen;
+    background: rgb(97, 226, 97);
     box-shadow: 0 0 10px lightblue, 0 0 10px #2196f3, 0 0 10px #2196f3;
     transform: scale(1.05);
     transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
