@@ -128,7 +128,7 @@ header {
 }
 
 .auto-input {
-    color: var(--main-color);
+    color: var(--bg-color);
 }
 
 .home {
