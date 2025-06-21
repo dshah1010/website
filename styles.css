@@ -280,50 +280,6 @@ header {
     transition: 0.3s all linear;
 }
 
-.technology-stack-content {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-}
-
-.technology-stack-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 15px;
-    background: var(--container-color);
-    border-radius: 2rem;
-    transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-
-.technology-stack-box:hover {
-    color: black;
-    background: rgb(97, 226, 97);
-    box-shadow: 0 0 10px lightblue, 0 0 10px #2196f3, 0 0 10px #2196f3;
-    transform: scale(1.05);
-    transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-
-.technology-stack-box .bx {
-    font-size: 1.4rem;
-    color: var(--main-color);
-    padding: 10px;
-    border-radius: 1rem;
-    border: 2.5px solid var(--bg-color);
-}
-
-.technology-stack-box h2 {
-    font-size: 1.1rem;
-    font-weight: 500;
-    margin: 0.5rem 0;
-    color: var(--main-color);
-}
-
-.technology-stack-box p {
-    font-size: 0.9rem;
-}
-
 .experience {
     max-width: 750px;
     margin: auto;
@@ -597,9 +553,6 @@ header {
     .home-text p {
         font-size: 0.825rem;
     }
-    .technology-stack-content {
-        grid-template-columns: repeat(2, 1fr);
-    }
     .projects-box {
         height: 245px;
     }
@@ -629,9 +582,6 @@ header {
     }
     .achievements-content {
         grid-template-columns: repeat(2, 200px);
-    }
-    .technology-stack-content {
-        grid-template-columns: 1fr;
     }
     .projects-content {
         grid-template-columns: 1fr;
